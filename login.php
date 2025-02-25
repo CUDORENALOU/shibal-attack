@@ -40,7 +40,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
         if ($username === $correct_username && $password === $correct_password) {
             $_SESSION['failed_attempts'][$user_ip] = 0; // Reset counter
             
-            // Redirect to your eCommerce site
+          
             header("Location: https://cudorenalou.github.io/it-28-ecommerce-m-cudo/home.html");
             exit();
         } else {
