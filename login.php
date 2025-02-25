@@ -71,7 +71,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     <style>
         body {
             font-family: Arial, sans-serif;
-            background: #fde6e6; /* Soft pink background */
+            background: #fde6e6; 
             height: 100vh;
             display: flex;
             align-items: center;
