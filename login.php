@@ -24,7 +24,7 @@ if (isset($_SESSION['lockout_time'][$user_ip])) {
     }
 }
 
-// Dummy credentials (Replace with database check)
+
 $correct_username = "RENALOU";
 $correct_password = "CUDORENA";
 
@@ -102,7 +102,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
         .btn {
             width: 100%;
             padding: 10px;
-            background: #ff5733; /* Orange-red button */
+            background: #ff5733; 
             border: none;
             color: white;
             font-size: 18px;
